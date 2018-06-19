@@ -1,0 +1,10 @@
+# import Grade from 'Grade.graphql'
+# import Planet from 'Planet.graphql'
+
+type Astronaut {
+    id: ID!
+    username: String!
+    picture: String
+    grade: Grade!
+    planet: Planet
+}

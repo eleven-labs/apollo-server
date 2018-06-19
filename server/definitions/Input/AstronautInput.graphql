@@ -1,0 +1,4 @@
+input AstronautInput {
+    username: String!
+    picture: String
+}

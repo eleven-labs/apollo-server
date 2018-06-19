@@ -1,0 +1,7 @@
+# import Planet from '../Planet.graphql'
+# import Atronaut from '../Astronaut.graphql'
+
+type PlanetOps {
+  addAstronaut(id: ID!): Planet
+  removeAstronaut(id: ID!): Planet 
+}

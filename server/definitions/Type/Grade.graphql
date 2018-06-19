@@ -1,0 +1,4 @@
+type Grade {
+    id: ID!
+    name: String!
+}
