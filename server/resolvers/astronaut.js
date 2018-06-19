@@ -11,8 +11,8 @@ const resolvers = {
         astronaut: (root, { id }, { db }, infos) => db.astronaut.query().findById(id),
     },
     Astronaut: {
-        grade: ({ grade_id }, args, { db }, infos) => db.grade.query().findById(grade_id),
-        planet: ({ planet_id }, args, { db }, infos) => planet_id ? db.planet.query().findById(planet_id) : null,
+        grade: ({ grade_id }, args, { dataloaders }, infos) => dataloaders.gradeById.load(grade_id),
+        planet: ({ planet_id }, args, { dataloaders }, infos) => planet_id ? dataloaders.planetById.load(planet_id) : null,
     },
     Mutation: {
         createAstronaut: async (root, { input }, { db }, infos) => db.astronaut.query().insert({ ...input }).returning('*'),

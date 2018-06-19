@@ -18,7 +18,7 @@ const resolvers = {
         planet: (root, { id }, { db }, infos) => db.planet.query().findById(id),
     },
     Planet: {
-        astronauts: ({ id }, args, { db }, infos) => db.astronaut.query().where({ planet_id: id }),
+        astronauts: ({ id }, args, { dataloaders }, infos) => dataloaders.astronautsById.load(grade_id),
     },
     Mutation: {
         planet: PlanetOps
