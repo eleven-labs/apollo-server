@@ -1,18 +1,18 @@
 version: '3'
 
 services:
-    node:
-        image: node:8
-        working_dir: /home/node/app
-        environment:
-          - NODE_ENV=dev
-        volumes:
-          - ./:/home/node/app
-        ports:
-          - 4000:4000
-        command: bash -c "npm install && npm run db:migrate:latest && npm run db:seed:run && npm start"
-        links:
-            - db
+    # node:
+    #     image: node:8
+    #     working_dir: /home/node/app
+    #     environment:
+    #       - NODE_ENV=dev
+    #     volumes:
+    #       - ./:/home/node/app
+    #     ports:
+    #       - 4000:4000
+    #     command: bash -c "npm install && npm run db:migrate:latest && npm run db:seed:run && npm start"
+    #     links:
+    #         - db
     db:
         image: postgres
         restart: always

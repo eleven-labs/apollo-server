@@ -1,5 +1,3 @@
-# import Atronaut from '../Astronaut.graphql'
-
 type AstronautOps {
   update(input: AstronautInput): Astronaut
   delete: Boolean

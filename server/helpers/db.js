@@ -8,8 +8,8 @@ const Db = () => {
 
     const db = {
         astronaut: require('../models/astronaut'),
-        grade: require('../models/grade'),
-        planet: require('../models/planet')
+        planet: require('../models/planet'),
+        user: require('../models/user'),
     };
 
     return db;

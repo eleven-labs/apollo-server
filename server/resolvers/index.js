@@ -2,14 +2,14 @@
 
 const { merge } = require('lodash');
 
-const GradeResolver = require('./grade');
 const AstronautResolver = require('./astronaut');
 const PlanetResolver = require('./planet');
+const AuthResolver = require('./auth');
 
 const resolvers = merge(
-    GradeResolver,
     AstronautResolver,
-    PlanetResolver
+    PlanetResolver,
+    AuthResolver,
 );
 
 module.exports = resolvers;

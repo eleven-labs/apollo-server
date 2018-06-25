@@ -1,14 +1,10 @@
-# import Atronaut from 'Type/Astronaut.graphql'
-# import Planet from 'Type/Planet.graphql'
-# import AstronautInput from 'Input/AstronautInput.graphql'
-# import AstronautOps from 'Type/Ops/AstronautOps.graphql'
-# import PlanetOps from 'Type/Ops/PlanetOps.graphql'
-
 type Query {
-  grades: [Grade]
-  grade(id: ID!): [Grade]
+  ranks: [Rank]
+  
   astronaut(id: ID!): Astronaut
-  astronauts: [Astronaut]
+  astronauts(skip: Int, first: Int): [Astronaut]
+  astronautConnection(first: Int, after: String, last: Int, before: String): AstronautConnection! @authenticated
+  
   planet(id: ID!): Planet
   planets: [Planet]
 }
@@ -17,4 +13,11 @@ type Mutation {
   createAstronaut(input: AstronautInput!): Astronaut
   astronaut(id: ID!): AstronautOps
   planet(id: ID!): PlanetOps
+
+  signup(email: String!, password: String!, name: String!): AuthPayload
+  login(email: String!, password: String!): AuthPayload
+}
+
+type Subscription {
+  astronautAdded: Astronaut @authenticated
 }

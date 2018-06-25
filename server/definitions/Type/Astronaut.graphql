@@ -1,10 +1,26 @@
-# import Grade from 'Grade.graphql'
-# import Planet from 'Planet.graphql'
-
 type Astronaut {
     id: ID!
     username: String!
     picture: String
-    grade: Grade!
+    rank: Rank!
+    points: Int!
     planet: Planet
+}
+
+type PageInfo {
+    hasNextPage: Boolean!
+    hasPreviousPage: Boolean!
+    startCursor: String
+    endCursor: String
+}
+
+type AstronautConnection {
+    totalCount: Int!
+    pageInfo: PageInfo!
+    edges: [AstronautEdge]!
+}
+
+type AstronautEdge {
+    node: Astronaut!
+    cursor: String!
 }

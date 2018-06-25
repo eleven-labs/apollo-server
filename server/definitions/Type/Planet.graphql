@@ -1,5 +1,3 @@
-# import Atronaut from 'Astronaut.graphql'
-
 type Planet {
     id: ID!
     name: String!
