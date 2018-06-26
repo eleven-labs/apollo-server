@@ -6,7 +6,8 @@ const UserSchema = {
             knex.schema.createTable('user', table => {
                 table.increments();
                 table.timestamps(true, true);
-                table.string('name');
+                table.string('firstname');
+                table.string('lastname');
                 table.string('email').notNullable();
                 table.unique('email')
                 table.string('password').notNullable();

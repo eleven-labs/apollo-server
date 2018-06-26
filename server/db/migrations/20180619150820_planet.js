@@ -8,7 +8,7 @@ const PlanetSchema = {
                 table.timestamps(true, true);
                 table.string('name');
                 table.string('picture').notNullable();
-
+                table.integer('points').notNullable().defaultTo(0);
             })
         ]);
     },

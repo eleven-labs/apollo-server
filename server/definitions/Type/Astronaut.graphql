@@ -1,17 +1,10 @@
-type Astronaut {
+type Astronaut implements Node {
     id: ID!
     username: String!
     picture: String
-    rank: Rank!
     points: Int!
+    rank: Rank!
     planet: Planet
-}
-
-type PageInfo {
-    hasNextPage: Boolean!
-    hasPreviousPage: Boolean!
-    startCursor: String
-    endCursor: String
 }
 
 type AstronautConnection {

@@ -1,4 +1,5 @@
 type AstronautOps {
+  addPoints(points: Int!): Astronaut
   update(input: AstronautInput): Astronaut
   delete: Boolean
 }

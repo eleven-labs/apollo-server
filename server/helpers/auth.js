@@ -3,8 +3,6 @@
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 
-const { AuthenticationError } = require('apollo-server');
-
 const APP_SECRET = 'ea5d9dbfd952c3cf0f2bd8efec5c2a0741a1bf249e132c3b'; //crypto.randomBytes(24).toString('hex');
 
 const getUser = ({ authorization, db }) => {
@@ -15,7 +13,7 @@ const getUser = ({ authorization, db }) => {
         return db.user.query().findById(userId);
     }
 
-    throw new AuthenticationError('Not authenticated');
+    return null;
 };
 
 module.exports = {

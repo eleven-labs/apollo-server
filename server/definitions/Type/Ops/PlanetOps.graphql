@@ -1,4 +1,0 @@
-type PlanetOps {
-  addAstronaut(id: ID!): Planet
-  removeAstronaut(id: ID!): Planet 
-}

@@ -14,7 +14,7 @@ class AstronautSeeder {
 
         const
             numberResult = 500,
-            numberIteration = 6;
+            numberIteration = 3;
 
 
         bar.start(numberResult * numberIteration, 0, {

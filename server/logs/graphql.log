@@ -1588,3 +1588,1349 @@
 {"message":"Mutation executed: LOGIN","level":"info"}
 {"level":"info","message":"SQL (4.974 ms) select \"user\".* from \"user\" where \"email\" = \"john.doe@gmail.com\""}
 {"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m296.236 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m4.085 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m58.562 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m2.357 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m1.109 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m1.131 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.723 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.421 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.545 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.579 ms - 143\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (11.830 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"john\") returning *"}
+{"message":"Not authenticated","locations":[{"line":2,"column":3}],"path":["astronautAdded"],"extensions":{"code":"UNAUTHENTICATED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m117.926 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.553 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.166 ms - 143\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m13.709 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m4.363 ms - 143\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m44.785 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (11.356 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"john\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m107.863 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.366 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.344 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.287 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.213 ms - 143\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m0.188 ms - 143\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mOPTIONS / \u001b[33m404 \u001b[0m6.580 ms - 143\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m9.143 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m57.468 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.912 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"message":"Field \"ranks\" must not have a selection since type \"[Rank]\" has no subfields.","locations":[{"line":2,"column":9}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"Field \"ranks\" must not have a selection since type \"[Rank]\" has no subfields.","locations":[{"line":2,"column":9}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[33m400 \u001b[0m10.031 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (4.023 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m56.956 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (4.711 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m18.556 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.366 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m90.165 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.674 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m18.176 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.148 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"Expected Iterable, but did not find one for field Query.ranks.","locations":[{"line":2,"column":3}],"path":["ranks"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m64.282 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (2.705 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"Expected Iterable, but did not find one for field Query.ranks.","locations":[{"line":2,"column":3}],"path":["ranks"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m22.197 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.013 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"Expected Iterable, but did not find one for field Query.ranks.","locations":[{"line":2,"column":3}],"path":["ranks"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m12.709 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.262 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"Expected a value of type \"Rank\" but received: ROOKIE","locations":[{"line":2,"column":3}],"path":["ranks",0],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: ENSIGN","locations":[{"line":2,"column":3}],"path":["ranks",1],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: LIEUTENANT","locations":[{"line":2,"column":3}],"path":["ranks",2],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: LIEUTENANT_COMMANDER","locations":[{"line":2,"column":3}],"path":["ranks",3],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: COMMANDER","locations":[{"line":2,"column":3}],"path":["ranks",4],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: CAPTAIN","locations":[{"line":2,"column":3}],"path":["ranks",5],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: FLEET_CAPTAIN","locations":[{"line":2,"column":3}],"path":["ranks",6],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: COMMODORE","locations":[{"line":2,"column":3}],"path":["ranks",7],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: REAR_ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",8],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: VICE_ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",9],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",10],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: FLEET_ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",11],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m77.450 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (2.948 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"Expected a value of type \"Rank\" but received: ROOKIE","locations":[{"line":2,"column":3}],"path":["ranks",0],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: ENSIGN","locations":[{"line":2,"column":3}],"path":["ranks",1],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: LIEUTENANT","locations":[{"line":2,"column":3}],"path":["ranks",2],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: LIEUTENANT_COMMANDER","locations":[{"line":2,"column":3}],"path":["ranks",3],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: COMMANDER","locations":[{"line":2,"column":3}],"path":["ranks",4],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: CAPTAIN","locations":[{"line":2,"column":3}],"path":["ranks",5],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: FLEET_CAPTAIN","locations":[{"line":2,"column":3}],"path":["ranks",6],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: COMMODORE","locations":[{"line":2,"column":3}],"path":["ranks",7],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: REAR_ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",8],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: VICE_ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",9],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",10],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: FLEET_ADMIRAL","locations":[{"line":2,"column":3}],"path":["ranks",11],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m80.028 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.609 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m78.354 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.177 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m81.507 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.983 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m22.585 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.016 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m14.399 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.468 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m74.131 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.610 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m77.465 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.079 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"Expected a value of type \"Rank\" but received: Rookie","locations":[{"line":2,"column":3}],"path":["ranks",0],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Ensign","locations":[{"line":2,"column":3}],"path":["ranks",1],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Lieutenant","locations":[{"line":2,"column":3}],"path":["ranks",2],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Lieutenant Commander","locations":[{"line":2,"column":3}],"path":["ranks",3],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Commander","locations":[{"line":2,"column":3}],"path":["ranks",4],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Captain","locations":[{"line":2,"column":3}],"path":["ranks",5],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Fleet Captain","locations":[{"line":2,"column":3}],"path":["ranks",6],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Commodore","locations":[{"line":2,"column":3}],"path":["ranks",7],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Rear Admiral","locations":[{"line":2,"column":3}],"path":["ranks",8],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Vice Admiral","locations":[{"line":2,"column":3}],"path":["ranks",9],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Admiral","locations":[{"line":2,"column":3}],"path":["ranks",10],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Fleet Admiral","locations":[{"line":2,"column":3}],"path":["ranks",11],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m79.258 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (1.389 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"Expected a value of type \"Rank\" but received: Rookie","locations":[{"line":2,"column":3}],"path":["ranks",0],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Ensign","locations":[{"line":2,"column":3}],"path":["ranks",1],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Lieutenant","locations":[{"line":2,"column":3}],"path":["ranks",2],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Lieutenant Commander","locations":[{"line":2,"column":3}],"path":["ranks",3],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Commander","locations":[{"line":2,"column":3}],"path":["ranks",4],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Captain","locations":[{"line":2,"column":3}],"path":["ranks",5],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Fleet Captain","locations":[{"line":2,"column":3}],"path":["ranks",6],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Commodore","locations":[{"line":2,"column":3}],"path":["ranks",7],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Rear Admiral","locations":[{"line":2,"column":3}],"path":["ranks",8],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Vice Admiral","locations":[{"line":2,"column":3}],"path":["ranks",9],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Admiral","locations":[{"line":2,"column":3}],"path":["ranks",10],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Expected a value of type \"Rank\" but received: Fleet Admiral","locations":[{"line":2,"column":3}],"path":["ranks",11],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m12.291 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.417 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m75.126 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (3.425 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m16.890 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: RANKS","level":"info"}
+{"level":"info","message":"SQL (2.959 ms) select \"user\".* from \"user\" where \"user\".\"id\" = 4"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m71.081 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m32.266 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"Cannot query field \"grade\" on type \"Astronaut\".","locations":[{"line":22,"column":3}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"Cannot query field \"grade\" on type \"Astronaut\".","locations":[{"line":22,"column":3}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[33m400 \u001b[0m14.587 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"Not authenticated","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"UNAUTHENTICATED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m19.436 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"Not authenticated","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"UNAUTHENTICATED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m9.936 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.634 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (5.027 ms) select \"astronaut\".* from \"astronaut\" limit 10"}
+{"level":"info","message":"SQL (1.776 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 6, 7, 5)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m79.357 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m4.221 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m87.463 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (10.811 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (11.694 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 10"}
+{"level":"info","message":"SQL (94.122 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4993 order by \"id\" DESC"}
+{"level":"info","message":"SQL (105.084 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4993 order by \"id\" DESC"}
+{"level":"info","message":"SQL (15.959 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7, 5, 6)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m195.785 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.135 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 5"}
+{"level":"info","message":"SQL (5.028 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (95.314 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (95.422 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7, 5)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m134.925 ms - -\u001b[0m\n","level":"info"}
+{"level":"info","message":"SQL (109.844 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.978 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.771 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 5"}
+{"level":"info","message":"SQL (53.444 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (53.229 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (64.624 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7, 5)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m97.462 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (4.249 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.231 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 5"}
+{"level":"info","message":"SQL (72.486 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (72.108 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (79.688 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7, 5)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m109.280 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (4.015 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.165 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 5"}
+{"level":"info","message":"SQL (84.212 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (84.443 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (89.600 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7, 5)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m120.134 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.619 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 5"}
+{"level":"info","message":"SQL (5.509 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (53.417 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (90.182 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (90.298 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7, 5)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m122.603 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"undefined passed as argument #0 for 'limit' operation. Call skipUndefined() method to ignore the undefined values.","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m15.688 ms - -\u001b[0m\n","level":"info"}
+{"level":"info","message":"SQL (2.568 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (0.966 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (0.995 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 5"}
+{"level":"info","message":"SQL (45.915 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (45.834 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4998 order by \"id\" DESC"}
+{"level":"info","message":"SQL (55.014 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7, 5)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m65.500 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.934 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.882 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 1"}
+{"level":"info","message":"SQL (58.201 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5002 order by \"id\" DESC"}
+{"level":"info","message":"SQL (62.279 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5002 order by \"id\" DESC"}
+{"level":"info","message":"SQL (61.640 ms) select \"planet\".* from \"planet\" where \"id\" in (8)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m89.586 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.975 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.527 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 2"}
+{"level":"info","message":"SQL (79.726 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (79.898 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (84.973 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m112.277 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (1.933 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.976 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 2"}
+{"level":"info","message":"SQL (58.947 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (62.551 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (61.806 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m95.162 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (4.037 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (3.683 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 2"}
+{"level":"info","message":"SQL (87.291 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (86.256 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7)"}
+{"level":"info","message":"SQL (87.244 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m115.546 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.054 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.705 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 2"}
+{"level":"info","message":"SQL (51.101 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (50.921 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (55.871 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m80.181 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (1.238 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.866 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 2"}
+{"level":"info","message":"SQL (81.155 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (83.418 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7)"}
+{"level":"info","message":"SQL (84.324 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m99.683 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.297 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = "}
+{"message":"Cannot destructure property `id` of 'undefined' or 'null'.","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m72.072 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.225 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 1"}
+{"message":"Cannot destructure property `id` of 'undefined' or 'null'.","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m75.700 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"qbAstronauts.orderBy(...).limit(...).toSQL is not a function","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m43.101 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"qbAstronauts is not defined","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m45.619 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"The operator \"undefined\" is not permitted","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m71.229 ms - -\u001b[0m\n","level":"info"}
+{"level":"info","message":"SQL (12.641 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"The operator \"undefined\" is not permitted","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m77.655 ms - -\u001b[0m\n","level":"info"}
+{"level":"info","message":"SQL (11.170 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"The operator \"undefined\" is not permitted","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.348 ms - -\u001b[0m\n","level":"info"}
+{"level":"info","message":"SQL (7.100 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.286 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.454 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" DESC limit 2"}
+{"level":"info","message":"SQL (70.268 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (75.783 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 5001 order by \"id\" DESC"}
+{"level":"info","message":"SQL (5.872 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 7)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m176.250 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.449 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.584 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (1.797 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2004 order by \"id\" DESC"}
+{"level":"info","message":"SQL (3.350 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2004 order by \"id\" DESC"}
+{"level":"info","message":"SQL (1.519 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 6)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m100.226 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (1.272 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.374 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (1.461 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2004 order by \"id\" DESC"}
+{"level":"info","message":"SQL (1.367 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 6)"}
+{"level":"info","message":"SQL (1.930 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2004 order by \"id\" DESC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m15.036 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.510 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (3.639 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (1.598 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"level":"info","message":"SQL (1.836 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"level":"info","message":"SQL (1.495 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m90.875 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.131 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (1.285 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.916 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (2.120 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"level":"info","message":"SQL (2.047 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2)"}
+{"level":"info","message":"SQL (2.744 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m41.074 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.849 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (1.384 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.958 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (2.583 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"level":"info","message":"SQL (2.080 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2)"}
+{"level":"info","message":"SQL (3.034 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m35.216 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.824 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (1.215 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.208 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (1.569 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"level":"info","message":"SQL (4.836 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" DESC"}
+{"level":"info","message":"SQL (2.116 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m102.641 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.394 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (2.159 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.209 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (0.970 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.792 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.392 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m98.650 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.486 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (1.393 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"message":"select \"astronaut\".* from \"astronaut\" where \"0\" = $1 and \"1\" = $2 and \"2\" = $3 order by \"id\" ASC limit $4 - column \"0\" does not exist","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR","exception":{"name":"error","length":101,"severity":"ERROR","code":"42703","position":"45","file":"parse_relation.c","line":"3293","routine":"errorMissingColumn"}},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m80.320 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.866 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (1.158 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.721 ms) select \"astronaut\".* from \"astronaut\" where \"id\" > 2 order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (1.319 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.791 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.041 ms) select \"planet\".* from \"planet\" where \"id\" in (3, 1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m93.665 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.731 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (1.068 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.743 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" > 2) order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (1.781 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.192 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"level":"info","message":"SQL (0.952 ms) select \"planet\".* from \"planet\" where \"id\" in (3, 1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m98.747 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.239 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (1.188 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.892 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" > 2) order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (2.176 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"level":"info","message":"SQL (1.807 ms) select \"planet\".* from \"planet\" where \"id\" in (3, 1)"}
+{"level":"info","message":"SQL (2.370 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.800 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.048 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 2"}
+{"level":"info","message":"SQL (2.602 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (3.635 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" > 2) order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (2.971 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.662 ms) select \"planet\".* from \"planet\" where \"id\" in (3, 1)"}
+{"level":"info","message":"SQL (4.471 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m33.376 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.345 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.255 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (2.819 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.367 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.095 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.679 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"undefined passed as argument #0 for 'limit' operation. Call skipUndefined() method to ignore the undefined values.","locations":[{"line":2,"column":3}],"path":["astronautConnection"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m9.786 ms - -\u001b[0m\n","level":"info"}
+{"level":"info","message":"SQL (1.461 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.889 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.593 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (2.124 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.375 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (1.224 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3, 4)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m92.259 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.508 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (6.209 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 2"}
+{"level":"info","message":"SQL (2.973 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.662 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2)"}
+{"level":"info","message":"SQL (3.509 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 2 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m37.430 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.964 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.777 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 3"}
+{"level":"info","message":"SQL (2.050 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 3 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.037 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3)"}
+{"level":"info","message":"SQL (2.778 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 3 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.958 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (1.717 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 3"}
+{"level":"info","message":"SQL (1.024 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.518 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" > 3) order by \"id\" ASC limit 3"}
+{"level":"info","message":"SQL (1.634 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 6 order by \"id\" ASC"}
+{"level":"info","message":"SQL (1.637 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 4, 3)"}
+{"level":"info","message":"SQL (2.137 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 6 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.121 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.618 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 4"}
+{"level":"info","message":"SQL (1.660 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.453 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" < 4) order by \"id\" ASC limit 3"}
+{"level":"info","message":"SQL (57.287 ms) select \"astronaut\".* from \"astronaut\" where \"id\" > 3 order by \"id\" ASC"}
+{"level":"info","message":"SQL (56.969 ms) select \"astronaut\".* from \"astronaut\" where \"id\" > 3 order by \"id\" ASC"}
+{"level":"info","message":"SQL (63.993 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m99.432 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.922 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 4"}
+{"level":"info","message":"SQL (2.293 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.810 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" < 4) order by \"id\" ASC limit 3"}
+{"level":"info","message":"SQL (48.010 ms) select \"astronaut\".* from \"astronaut\" where \"id\" > 3 order by \"id\" ASC"}
+{"level":"info","message":"SQL (47.727 ms) select \"astronaut\".* from \"astronaut\" where \"id\" > 3 order by \"id\" ASC"}
+{"level":"info","message":"SQL (54.102 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m78.909 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.741 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 3"}
+{"level":"info","message":"SQL (1.515 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.660 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" > 3) order by \"id\" ASC limit 3"}
+{"level":"info","message":"SQL (2.248 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 6 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.016 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 4, 3)"}
+{"level":"info","message":"SQL (3.058 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 6 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.639 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m56.959 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.821 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = 3"}
+{"level":"info","message":"SQL (1.518 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (2.185 ms) select \"astronaut\".* from \"astronaut\" where (\"id\" > 3) order by \"id\" ASC limit 3"}
+{"level":"info","message":"SQL (3.143 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 6 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.270 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 6 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.583 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 4, 3)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m80.316 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.664 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.656 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (3.681 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.369 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3, 4)"}
+{"level":"info","message":"SQL (4.622 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m36.292 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"message":"Cannot query field \"grade\" on type \"Astronaut\".","locations":[{"line":13,"column":3}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"Cannot query field \"grade\" on type \"Astronaut\".","locations":[{"line":13,"column":3}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[33m400 \u001b[0m10.048 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.902 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (8.881 ms) update \"astronaut\" set \"points\" = 10 where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.149 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m74.859 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.283 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.320 ms) update \"astronaut\" set \"points\" = 20 where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.424 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m29.119 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.145 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (10.376 ms) update \"astronaut\" set \"points\" = 30 where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.400 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m33.797 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (4.200 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.603 ms) update \"astronaut\" set \"points\" = 40 where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.840 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m129.653 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.896 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"update \"astronaut\" set \"points\" = $1, \"rank\" = $2 where \"id\" = $3 returning * - new row for relation \"astronaut\" violates check constraint \"astronaut_rank_check\"","locations":[{"line":3,"column":5}],"path":["astronaut","rankUp"],"extensions":{"code":"INTERNAL_SERVER_ERROR","exception":{"name":"error","length":349,"severity":"ERROR","code":"23514","detail":"Failing row contains (1, 2018-06-26 12:09:30.083195+00, 2018-06-26 12:09:30.083195+00, redfish536, https://randomuser.me/api/portraits/med/women/82.jpg, , 50, 1).","schema":"public","table":"astronaut","constraint":"astronaut_rank_check","file":"execMain.c","line":"2055","routine":"ExecConstraints"}},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m106.042 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.627 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"update \"astronaut\" set \"points\" = $1, \"rank\" = $2 where \"id\" = $3 returning * - new row for relation \"astronaut\" violates check constraint \"astronaut_rank_check\"","locations":[{"line":3,"column":5}],"path":["astronaut","rankUp"],"extensions":{"code":"INTERNAL_SERVER_ERROR","exception":{"name":"error","length":349,"severity":"ERROR","code":"23514","detail":"Failing row contains (1, 2018-06-26 12:09:30.083195+00, 2018-06-26 12:09:30.083195+00, redfish536, https://randomuser.me/api/portraits/med/women/82.jpg, , 50, 1).","schema":"public","table":"astronaut","constraint":"astronaut_rank_check","file":"execMain.c","line":"2055","routine":"ExecConstraints"}},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.054 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.739 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"update \"astronaut\" set \"points\" = $1, \"rank\" = $2 where \"id\" = $3 returning * - new row for relation \"astronaut\" violates check constraint \"astronaut_rank_check\"","locations":[{"line":3,"column":5}],"path":["astronaut","rankUp"],"extensions":{"code":"INTERNAL_SERVER_ERROR","exception":{"name":"error","length":349,"severity":"ERROR","code":"23514","detail":"Failing row contains (1, 2018-06-26 12:09:30.083195+00, 2018-06-26 12:09:30.083195+00, redfish536, https://randomuser.me/api/portraits/med/women/82.jpg, , 50, 1).","schema":"public","table":"astronaut","constraint":"astronaut_rank_check","file":"execMain.c","line":"2055","routine":"ExecConstraints"}},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.466 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.830 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"update \"astronaut\" set \"points\" = $1, \"rank\" = $2 where \"id\" = $3 returning * - new row for relation \"astronaut\" violates check constraint \"astronaut_rank_check\"","locations":[{"line":3,"column":5}],"path":["astronaut","rankUp"],"extensions":{"code":"INTERNAL_SERVER_ERROR","exception":{"name":"error","length":349,"severity":"ERROR","code":"23514","detail":"Failing row contains (1, 2018-06-26 12:09:30.083195+00, 2018-06-26 12:09:30.083195+00, redfish536, https://randomuser.me/api/portraits/med/women/82.jpg, , 50, 1).","schema":"public","table":"astronaut","constraint":"astronaut_rank_check","file":"execMain.c","line":"2055","routine":"ExecConstraints"}},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m131.751 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.483 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (1.965 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (1.468 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.466 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.292 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3, 4)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m46.308 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.135 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (7.119 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (4.159 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.828 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3, 4)"}
+{"level":"info","message":"SQL (5.014 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m35.814 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.158 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.462 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (3.188 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.288 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3, 4)"}
+{"level":"info","message":"SQL (4.400 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m31.208 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.210 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (6.447 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (4.573 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.132 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 2, 3, 4)"}
+{"level":"info","message":"SQL (5.657 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m37.433 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.757 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"update \"astronaut\" set \"points\" = $1, \"rank\" = $2 where \"id\" = $3 returning * - new row for relation \"astronaut\" violates check constraint \"astronaut_rank_check\"","locations":[{"line":3,"column":5}],"path":["astronaut","rankUp"],"extensions":{"code":"INTERNAL_SERVER_ERROR","exception":{"name":"error","length":349,"severity":"ERROR","code":"23514","detail":"Failing row contains (1, 2018-06-26 12:09:30.083195+00, 2018-06-26 12:09:30.083195+00, redfish536, https://randomuser.me/api/portraits/med/women/82.jpg, , 50, 1).","schema":"public","table":"astronaut","constraint":"astronaut_rank_check","file":"execMain.c","line":"2055","routine":"ExecConstraints"}},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m23.213 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.798 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (8.808 ms) update \"astronaut\" set \"points\" = 50, \"rank\" = \"ROOKIE\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.013 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m136.822 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.318 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.146 ms) update \"astronaut\" set \"points\" = 60, \"rank\" = \"ROOKIE\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.595 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m31.912 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.168 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.577 ms) update \"astronaut\" set \"points\" = 70, \"rank\" = \"ROOKIE\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.557 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m29.809 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.129 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.564 ms) update \"astronaut\" set \"points\" = 80, \"rank\" = \"ROOKIE\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.536 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.587 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.171 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.975 ms) update \"astronaut\" set \"points\" = 90, \"rank\" = \"ROOKIE\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.510 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.265 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.558 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.999 ms) update \"astronaut\" set \"points\" = 100, \"rank\" = \"ROOKIE\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.553 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.421 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.244 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (4.368 ms) update \"astronaut\" set \"points\" = 110, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.569 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.199 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.929 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (4.244 ms) update \"astronaut\" set \"points\" = 120, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.326 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.598 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.874 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (4.170 ms) update \"astronaut\" set \"points\" = 130, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (2.230 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.795 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.029 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.408 ms) update \"astronaut\" set \"points\" = 140, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.722 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m23.057 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.193 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (4.065 ms) update \"astronaut\" set \"points\" = 150, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (2.009 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.588 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.157 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.144 ms) update \"astronaut\" set \"points\" = 160, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (2.137 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m22.502 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.922 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.507 ms) update \"astronaut\" set \"points\" = 170, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.678 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.058 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.994 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.161 ms) update \"astronaut\" set \"points\" = 180, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.438 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m21.812 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.009 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (4.437 ms) update \"astronaut\" set \"points\" = 190, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.893 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.326 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.820 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.371 ms) update \"astronaut\" set \"points\" = 200, \"rank\" = \"ENSIGN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.733 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m37.729 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.972 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (8.540 ms) update \"astronaut\" set \"points\" = 210, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.158 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m135.184 ms - -\u001b[0m\n","level":"info"}
+{"message":"Cannot query field \"astronautRankUp\" on type \"Subscription\". Did you mean \"astronaut\" or \"planetRankUp\"?","locations":[{"line":2,"column":3}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m4.037 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m63.438 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m4.556 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m0.460 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m56.994 ms - -\u001b[0m\n","level":"info"}
+{"message":"Cannot query field \"username\" on type \"Planet\". Did you mean \"name\"?","locations":[{"line":4,"column":5}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (5.539 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.505 ms) update \"astronaut\" set \"points\" = 220, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.379 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m116.571 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m4.268 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m50.521 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"message":"Cannot query field \"rankUp\" on type \"AstronautOps\".","locations":[{"line":3,"column":5}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"Cannot query field \"rankUp\" on type \"AstronautOps\".","locations":[{"line":3,"column":5}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[33m400 \u001b[0m25.095 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.945 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.963 ms) update \"astronaut\" set \"points\" = 230, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.991 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m130.473 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.188 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.862 ms) update \"astronaut\" set \"points\" = 240, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.462 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m29.887 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.826 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.598 ms) update \"astronaut\" set \"points\" = 250, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.460 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m39.467 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.327 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (8.945 ms) update \"astronaut\" set \"points\" = 260, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (0.819 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.301 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.210 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.729 ms) update \"astronaut\" set \"points\" = 270, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.560 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.531 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.063 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.527 ms) update \"astronaut\" set \"points\" = 280, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.326 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m22.143 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.366 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.637 ms) update \"astronaut\" set \"points\" = 290, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.616 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m16.339 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.149 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.867 ms) update \"astronaut\" set \"points\" = 300, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.246 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m20.708 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.123 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (4.599 ms) update \"astronaut\" set \"points\" = 310, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.488 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.339 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.309 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.189 ms) update \"astronaut\" set \"points\" = 320, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.761 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m28.257 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.266 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (3.156 ms) update \"astronaut\" set \"points\" = 330, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.744 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.740 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.051 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (2.187 ms) update \"astronaut\" set \"points\" = 340, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (0.931 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m12.615 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.857 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.552 ms) update \"astronaut\" set \"points\" = 350, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.785 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m28.128 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.850 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.476 ms) update \"astronaut\" set \"points\" = 360, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.283 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.510 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.755 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (4.568 ms) update \"astronaut\" set \"points\" = 370, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.994 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.558 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.745 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (2.573 ms) update \"astronaut\" set \"points\" = 380, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.605 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m18.917 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.812 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.012 ms) update \"astronaut\" set \"points\" = 390, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.410 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.920 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.920 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.442 ms) update \"astronaut\" set \"points\" = 400, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (2.000 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m20.116 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.291 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.469 ms) update \"astronaut\" set \"points\" = 410, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (2.387 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m35.833 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.321 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.737 ms) update \"astronaut\" set \"points\" = 420, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.797 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m22.130 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.096 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (5.834 ms) update \"astronaut\" set \"points\" = 430, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.229 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.032 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.018 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.733 ms) update \"astronaut\" set \"points\" = 440, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (4.102 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m34.222 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.168 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.164 ms) update \"astronaut\" set \"points\" = 450, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (2.318 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.439 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.387 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (2.892 ms) update \"astronaut\" set \"points\" = 460, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.071 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.248 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.340 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.310 ms) update \"astronaut\" set \"points\" = 470, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.439 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.757 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (0.929 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (2.190 ms) update \"astronaut\" set \"points\" = 480, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (0.979 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m13.273 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.909 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (4.862 ms) update \"astronaut\" set \"points\" = 490, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.687 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m28.610 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.408 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (3.211 ms) update \"astronaut\" set \"points\" = 500, \"rank\" = \"COMMANDER\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (2.044 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.841 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.473 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot return null for non-nullable field Astronaut.id.","locations":[{"line":3,"column":5}],"path":["astronautRankUp","id"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"level":"info","message":"SQL (10.206 ms) update \"astronaut\" set \"points\" = 510, \"rank\" = \"CAPTAIN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.179 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m38.233 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (4.871 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.092 ms) update \"astronaut\" set \"points\" = 520, \"rank\" = \"CAPTAIN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.026 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m135.884 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.425 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (2.820 ms) update \"astronaut\" set \"points\" = 530, \"rank\" = \"CAPTAIN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.141 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m118.859 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (5.335 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.046 ms) update \"astronaut\" set \"points\" = 540, \"rank\" = \"CAPTAIN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.204 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m143.008 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.856 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (8.830 ms) update \"astronaut\" set \"points\" = 550, \"rank\" = \"CAPTAIN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (0.927 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m139.237 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (4.411 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.599 ms) update \"astronaut\" set \"points\" = 560, \"rank\" = \"CAPTAIN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.290 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m136.153 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.836 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"level":"info","message":"SQL (9.153 ms) update \"astronaut\" set \"points\" = 570, \"rank\" = \"CAPTAIN\" where \"id\" = \"1\" returning *"}
+{"level":"info","message":"SQL (1.027 ms) select \"planet\".* from \"planet\" where \"id\" in (1)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m139.965 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"message":"Cannot query field \"grade\" on type \"Astronaut\".","locations":[{"line":22,"column":3}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"Cannot query field \"grade\" on type \"Astronaut\".","locations":[{"line":22,"column":3}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[33m400 \u001b[0m48.208 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (4.426 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (5.936 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (3.901 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 1510 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.026 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 1510 order by \"id\" ASC"}
+{"level":"info","message":"SQL (1.765 ms) select \"planet\".* from \"planet\" where \"id\" in (8, 5, 6, 7)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m78.803 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m8.993 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m56.170 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m1.112 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.021 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: null","level":"info"}
+{"level":"info","message":"SQL (2.417 ms) select \"planet\".* from \"planet\""}
+{"level":"info","message":"SQL (4.886 ms) select \"planet\".* from \"planet\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m42.246 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: null","level":"info"}
+{"level":"info","message":"SQL (3.192 ms) select \"planet\".* from \"planet\""}
+{"level":"info","message":"SQL (4.975 ms) select \"planet\".* from \"planet\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m19.134 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: null","level":"info"}
+{"level":"info","message":"SQL (3.513 ms) select \"planet\".* from \"planet\""}
+{"level":"info","message":"SQL (5.980 ms) select \"planet\".* from \"planet\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m36.441 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: null","level":"info"}
+{"level":"info","message":"SQL (2.450 ms) select \"planet\".* from \"planet\""}
+{"level":"info","message":"SQL (3.726 ms) select \"planet\".* from \"planet\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m15.833 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.910 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (3.399 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (2.745 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 3010 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.997 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 3010 order by \"id\" ASC"}
+{"level":"info","message":"SQL (1.475 ms) select \"planet\".* from \"planet\" where \"id\" in (10, 11, 12, 9)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m34.772 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.713 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (5.437 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (4.642 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 3010 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.479 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 3010 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.571 ms) select \"planet\".* from \"planet\" where \"id\" in (10, 11, 12, 9)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m35.427 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m14.486 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (8.977 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"level":"info","message":"SQL (9.816 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m91.887 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.460 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.463 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.137 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"1\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m16.117 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.631 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.485 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"3001\""}
+{"level":"info","message":"SQL (10.926 ms) update \"astronaut\" set \"points\" = 10 where \"id\" = \"3001\" returning *"}
+{"level":"info","message":"SQL (1.312 ms) select \"planet\".* from \"planet\" where \"id\" in (10)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m35.384 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"level":"info","message":"SQL (3.710 ms) select \"user\".* from \"user\" where \"email\" = \"wilson@eleven-labs.com\""}
+{"message":"Invalid password","locations":[{"line":2,"column":3}],"path":["login"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m286.932 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m16.402 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m11.523 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m13.049 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"message":"Variable \"$email\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":16}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Variable \"$password\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":33}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Variable \"$email\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":16}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Variable \"$password\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":33}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[33m400 \u001b[0m9.882 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"message":"Variable \"$email\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":16}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Variable \"$password\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":33}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Variable \"$email\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":16}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"Variable \"$password\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":33}],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[33m400 \u001b[0m10.896 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"level":"info","message":"SQL (5.462 ms) select \"user\".* from \"user\" where \"email\" = \"wilson@eleven-labs.com\""}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"level":"info","message":"SQL (0.934 ms) select \"user\".* from \"user\" where \"email\" = \"wilson@eleven-labs.com\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m331.385 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m230.340 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"level":"info","message":"SQL (0.842 ms) select \"user\".* from \"user\" where \"email\" = \"wilson@eleven-labs.com\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m240.630 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"level":"info","message":"SQL (1.072 ms) select \"user\".* from \"user\" where \"email\" = \"wilson@eleven-labs.com\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m237.760 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.156 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"3001\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.492 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.091 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"3001\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m23.468 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.733 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"3001\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m22.742 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.471 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"3001\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m19.650 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.069 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"3001\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m16.608 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.401 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"3001\""}
+{"message":"Cannot read property 'points' of undefined","locations":[{"line":3,"column":5}],"path":["astronaut","addPoints"],"extensions":{"code":"INTERNAL_SERVER_ERROR"},"level":"error"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m14.159 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (3.239 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.336 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (1.633 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4512 order by \"id\" ASC"}
+{"level":"info","message":"SQL (4.310 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4512 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.034 ms) select \"planet\".* from \"planet\" where \"id\" in (15, 14, 13, 16)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m47.370 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.055 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (8.728 ms) update \"astronaut\" set \"points\" = 10 where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (0.875 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m65.393 ms - -\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m2.885 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m23.744 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (0.802 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (8.139 ms) update \"astronaut\" set \"points\" = 20 where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (0.915 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m17.312 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.299 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (8.982 ms) update \"astronaut\" set \"points\" = 30 where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (0.881 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m37.833 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.755 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (2.508 ms) update \"astronaut\" set \"points\" = 40 where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.128 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m23.736 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.848 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.922 ms) update \"astronaut\" set \"points\" = 50, \"rank\" = \"ROOKIE\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.254 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.196 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.993 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.255 ms) update \"astronaut\" set \"points\" = 60, \"rank\" = \"ROOKIE\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.502 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.561 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.123 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.842 ms) update \"astronaut\" set \"points\" = 70, \"rank\" = \"ROOKIE\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.504 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m28.099 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.664 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.855 ms) update \"astronaut\" set \"points\" = 80, \"rank\" = \"ROOKIE\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.642 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.950 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (0.908 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (8.233 ms) update \"astronaut\" set \"points\" = 90, \"rank\" = \"ROOKIE\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (0.840 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m17.303 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.778 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.779 ms) update \"astronaut\" set \"points\" = 100, \"rank\" = \"ROOKIE\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (2.180 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.452 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.140 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (2.356 ms) update \"astronaut\" set \"points\" = 110, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.016 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m25.274 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (1.175 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (8.339 ms) update \"astronaut\" set \"points\" = 120, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (0.846 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m19.505 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.551 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (10.181 ms) update \"astronaut\" set \"points\" = 130, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (2.841 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m35.734 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (2.445 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.529 ms) update \"astronaut\" set \"points\" = 140, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.423 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m23.484 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_RANK_UP","level":"info"}
+{"level":"info","message":"SQL (3.260 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.361 ms) update \"astronaut\" set \"points\" = 150, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.662 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.728 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.854 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (4.642 ms) update \"astronaut\" set \"points\" = 160, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.558 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m28.579 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.634 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.379 ms) update \"astronaut\" set \"points\" = 170, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.690 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.930 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.861 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (10.331 ms) update \"astronaut\" set \"points\" = 180, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.144 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m34.988 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.053 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (4.425 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (2.137 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4512 order by \"id\" ASC"}
+{"level":"info","message":"SQL (8.371 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 4512 order by \"id\" ASC"}
+{"level":"info","message":"SQL (3.014 ms) select \"planet\".* from \"planet\" where \"id\" in (15, 14, 13, 16)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m42.572 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (11.424 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"level":"info","message":"SQL (11.580 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m33.054 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (3.984 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"level":"info","message":"SQL (5.008 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m19.889 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (4.179 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"level":"info","message":"SQL (4.807 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m15.993 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (3.718 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"level":"info","message":"SQL (4.648 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m19.156 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (3.682 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"level":"info","message":"SQL (4.550 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m16.770 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: CREATE_ASTRONAUT","level":"info"}
+{"level":"info","message":"SQL (3.848 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"level":"info","message":"SQL (5.692 ms) insert into \"astronaut\" (\"picture\", \"username\") values (\"https://randomuser.me/api/portraits/men/13.jpg\", \"Wilson\") returning *"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m17.459 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (3.690 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.125 ms) update \"astronaut\" set \"points\" = 190, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.559 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.877 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.840 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.897 ms) update \"astronaut\" set \"points\" = 200, \"rank\" = \"ENSIGN\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.333 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.849 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.253 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (2.972 ms) update \"astronaut\" set \"points\" = 210, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.119 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m24.438 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.802 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.719 ms) update \"astronaut\" set \"points\" = 220, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.879 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m30.622 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (1.940 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (2.455 ms) update \"astronaut\" set \"points\" = 230, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.056 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m19.081 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.650 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (2.938 ms) update \"astronaut\" set \"points\" = 240, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.674 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m28.486 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.694 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.928 ms) update \"astronaut\" set \"points\" = 250, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.434 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m26.939 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.879 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (3.710 ms) update \"astronaut\" set \"points\" = 260, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.986 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m23.991 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: ASTRONAUT_ADD_POINTS","level":"info"}
+{"level":"info","message":"SQL (2.512 ms) select \"astronaut\".* from \"astronaut\" where \"astronaut\".\"id\" = \"4503\""}
+{"level":"info","message":"SQL (4.465 ms) update \"astronaut\" set \"points\" = 270, \"rank\" = \"LIEUTENANT_COMMANDER\" where \"id\" = \"4503\" returning *"}
+{"level":"info","message":"SQL (1.726 ms) select \"planet\".* from \"planet\" where \"id\" in (15)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.805 ms - -\u001b[0m\n","level":"info"}
+{"message":"Mutation executed: LOGIN","level":"info"}
+{"level":"info","message":"SQL (5.161 ms) select \"user\".* from \"user\" where \"email\" = \"wilson@eleven-labs.com\""}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m298.780 ms - -\u001b[0m\n","level":"info"}
+{"message":"🚀 Server ready at http://localhost:4000/graphql","level":"info"}
+{"message":"\u001b[0mGET /graphql \u001b[32m200 \u001b[0m8.195 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m56.829 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m32.411 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m21.940 ms - -\u001b[0m\n","level":"info"}
+{"message":"Query executed: ASTRONAUTS","level":"info"}
+{"level":"info","message":"SQL (2.903 ms) select count(*) as \"count\" from (select \"astronaut\".* from \"astronaut\") as \"temp\""}
+{"level":"info","message":"SQL (3.996 ms) select \"astronaut\".* from \"astronaut\" order by \"id\" ASC limit 10"}
+{"level":"info","message":"SQL (1.665 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (2.051 ms) select \"astronaut\".* from \"astronaut\" where \"id\" < 10 order by \"id\" ASC"}
+{"level":"info","message":"SQL (1.063 ms) select \"planet\".* from \"planet\" where \"id\" in (1, 4, 2, 3)"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m55.667 ms - -\u001b[0m\n","level":"info"}
+{"message":"Subscription executed: IntrospectionQuery","level":"info"}
+{"message":"\u001b[0mPOST /graphql \u001b[32m200 \u001b[0m27.113 ms - -\u001b[0m\n","level":"info"}

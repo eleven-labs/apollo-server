@@ -1,19 +1,21 @@
 'use strict';
 
 const resolvers = {
-    Rank: {
-        ROOKIE: "Rookie",
-        ENSIGN: "Ensign",
-        LIEUTENANT: "Lieutenant",
-        LIEUTENANT_COMMANDER: "Lieutenant Commander",
-        COMMANDER: "Commander",
-        CAPTAIN: "Captain",
-        FLEET_CAPTAIN: "Fleet Captain",
-        COMMODORE: "Commodore",
-        REAR_ADMIRAL: "Rear Admiral",
-        VICE_ADMIRAL: "Vice Admiral",
-        ADMIRAL: "Admiral",
-        FLEET_ADMIRAL: "Fleet Admiral"
+    Query: {
+        ranks: () => [
+            'ROOKIE',
+            'ENSIGN',
+            'LIEUTENANT',
+            'LIEUTENANT_COMMANDER',
+            'COMMANDER',
+            'CAPTAIN',
+            'FLEET_CAPTAIN',
+            'COMMODORE',
+            'REAR_ADMIRAL',
+            'VICE_ADMIRAL',
+            'ADMIRAL',
+            'FLEET_ADMIRAL'
+        ]
     }
 }
 

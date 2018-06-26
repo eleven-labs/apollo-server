@@ -1,56 +1,73 @@
 'use strict';
 
 const pubsub = require('../helpers/pubsub');
+const PaginationHelper = require('../helpers/pagination');
 
-const ASTRONAUT_ADDED = 'ASTRONAUT_ADDED';
-
-const convertNodeToCursor = ({ id }) => bota(id.toString());
-const bota = (input) => new Buffer(input.toString(), 'binary').toString("base64");
-const convertCursorToNodeId = (cursor) => parseInt(atob(cursor));
-const atob = (input) => new Buffer(input, 'base64').toString('binary');
+const ASTRONAUT_ADD_POINTS = 'ASTRONAUT_ADD_POINTS';
+const ASTRONAUT_RANK_UP = 'ASTRONAUT_RANK_UP';
 
 const AstronautOps = (root, { id }, { db }, infos) => ({
-    update: async ({ input }) => db.astronaut.query().patch({ ...input }).where({ id }).returning('*').then(rows => rows[0]),
+    addPoints: async ({ points }) => {
+        const astronaut = await db.astronaut
+            .query()
+            .findById(id)
+            .then(astronaut => db.astronaut
+                .query()
+                .patch({ points: astronaut.points + points })
+                .where({ id })
+                .returning('*')
+                .then(rows => rows.length > 0 ? rows[0] : null)
+            );
+
+        pubsub.publish(ASTRONAUT_ADD_POINTS, { astronautAddPoints: astronaut });
+
+        return astronaut;
+    },
+    update: ({ input }) => db.astronaut
+        .query()
+        .patch({ ...input })
+        .where({ id })
+        .returning('*')
+        .then(rows => rows.length > 0 ? rows[0] : null),
     delete: () => db.astronaut.query().deleteById(id)
 });
 
 const resolvers = {
     Query: {
-        astronauts: (root, { skip = 0, first }, { db }, infos) => {
-            if (!first) return db.astronaut.query();
-            return db.astronaut.query().page(skip, first).then(({ results }) => results);
-        },
-        astronautConnection: async (root, { first = 10, after }, { db }, infos) => {
-            let afterIndex = 0;
+        astronautConnection: async (root, { first, last, before, after }, { db }, infos) => {
 
-            // Get ID from after argument or default to first item.
-            if (typeof after === "string") {
-                let id = convertCursorToNodeId(after);
-                if (typeof id === "number") {
-                    const { id: matchingIndex } = await db.astronaut.query().findById(id);
-                    if (matchingIndex != -1) {
-                        afterIndex = matchingIndex;
-                    }
-                }
+            let id = null;
+            if (typeof before === "string") {
+                id = PaginationHelper.convertCursorToNodeId(before);
+            } else if (typeof after === "string") {
+                id = PaginationHelper.convertCursorToNodeId(after);
             }
 
-            const [
-                totalCount,
-                astronauts
-            ] = await Promise.all([
+            let where = [];
+            if (typeof id === "number") {
+                const { id: matchingIndex } = await db.astronaut.query().findById(id);
+                if (matchingIndex != -1) where = ['id', before ? '<' : '>', matchingIndex];
+            }
+
+            const [totalCount, astronauts] = await Promise.all([
                 db.astronaut.query().resultSize(),
-                db.astronaut.query().offset(afterIndex).limit(first),
+                db.astronaut.query().where(builder => {
+                    where.length > 0 && builder.where(...where);
+                }).orderBy('id', 'ASC').limit(first || last || 10),
             ]);
 
-            const edges = astronauts
-                .map(node => ({
-                    node,
-                    cursor: convertNodeToCursor(node)
-                }));
+            const edges = astronauts.map(node => ({
+                node,
+                cursor: PaginationHelper.convertNodeToCursor(node)
+            }));
 
-            const startCursor = edges.length > 0 ? convertNodeToCursor(edges[0].node) : null;
-            const endCursor = edges.length > 0 ? convertNodeToCursor(edges[edges.length - 1].node) : null;
-            const hasNextPage = totalCount > afterIndex + first;
+            const startCursor = edges.length > 0 ? PaginationHelper.convertNodeToCursor(edges[0].node) : null;
+            const endCursor = edges.length > 0 ? PaginationHelper.convertNodeToCursor(edges[edges.length - 1].node) : null;
+            const hasNextPage = astronauts.length < (last || first) ? false : db.astronaut
+                .query()
+                .where('id', before ? '>' : '<', astronauts[astronauts.length - 1].id)
+                .orderBy('id', 'ASC')
+                .first();
             const hasPreviousPage = false;
 
             return {
@@ -67,21 +84,19 @@ const resolvers = {
         astronaut: (root, { id }, { db }, infos) => db.astronaut.query().findById(id),
     },
     Mutation: {
-        createAstronaut: async (root, { input }, { db }, infos) => {
-            const astronaut = await db.astronaut.query().insert({ ...input }).returning('*')
-            pubsub.publish(ASTRONAUT_ADDED, { astronautAdded: astronaut });
-            return astronaut;
-        },
+        createAstronaut: (root, { input }, { db }, infos) => db.astronaut
+            .query()
+            .insert({ ...input })
+            .returning('*'),
         astronaut: AstronautOps
     },
     Subscription: {
-        astronautAdded: {
-            resolve: (payload, args, ctx) => {
-                //throw new Error('Not authenticated');
-                return { ...payload.astronautAdded };
-            },
-            subscribe: () => pubsub.asyncIterator([ASTRONAUT_ADDED]),
-        }
+        astronautAddPoints: {
+            subscribe: () => pubsub.asyncIterator([ASTRONAUT_ADD_POINTS])
+        },
+        astronautRankUp: {
+            subscribe: () => pubsub.asyncIterator([ASTRONAUT_RANK_UP])
+        },
     },
     Astronaut: {
         planet: ({ planet_id }, args, { dataloaders }, infos) => planet_id ? dataloaders.planetById.load(planet_id) : null,
